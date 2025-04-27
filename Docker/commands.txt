@@ -1,0 +1,12 @@
+docker build -t flask-app .
+docker run -p 8999:8999 flask-app
+
+  
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+
+  #don't use
+  kubectl port-forward service/flask-service 5000:80
+
+  
