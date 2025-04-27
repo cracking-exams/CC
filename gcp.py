@@ -16,11 +16,11 @@ def hello():
     return 'Hello, World from Google App Engine!'
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
 
 
 # requirements.txt
-flask==2.0.3
+flask
 gunicorn
 
 #app.yaml
