@@ -4,6 +4,7 @@
 # gcloud components install app-engine-python
 # gcloud components install app-engine-python-extras
 
+# gcloud config set project YOUR_PROJECT_ID
 
 # app.py
 from flask import Flask
